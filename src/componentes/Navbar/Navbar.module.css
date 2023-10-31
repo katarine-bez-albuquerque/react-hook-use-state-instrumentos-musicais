@@ -1,0 +1,36 @@
+.navbar {
+    width: 90%;
+    max-width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 200px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    margin: 0 4px;
+}
+
+.navbar ul li a img {
+    width: 32px;
+    height: 32px;
+}
+
+@media(max-width: 786px) {
+    .navbar img {
+        width: 150px;
+    }
+}

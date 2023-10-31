@@ -1,0 +1,42 @@
+.formulario {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario form {
+    width: 250px;
+    height: auto;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid #BF00FF;
+    background-color: #FFF;
+    margin-bottom: 8px;
+}
+
+.formulario input,
+.formulario input::placeholder {
+    color: #BF00FF;
+}
+
+.formulario input:focus {
+    outline: 0 none;
+    border: 2px solid #BF00FF;
+    background-color: #FFF;
+}
+
+.formulario input[type="submit"] {
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #0066FF;
+    background-color: #0066FF;
+    color: #FFF;
+    text-transform: uppercase;
+}

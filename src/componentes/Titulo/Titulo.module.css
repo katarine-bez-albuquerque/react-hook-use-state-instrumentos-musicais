@@ -1,0 +1,19 @@
+.titulo {
+    width: 100%;
+    padding: 40px 0 0 0; 
+    background-color: transparent!important;   
+}
+
+.titulo h3 {
+    font-size: 25px;
+    font-weight: 900;
+    color: #0267FF;
+    text-align: center; 
+    text-transform: uppercase;   
+}
+
+@media(max-width: 786px) {
+    .titulo h3 {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,67 @@
+.instrumentos {
+    max-width: 100%;
+    width: 90%;
+    padding: 20px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(0, 102, 255, 0.08);
+}
+
+.instrumentos article {
+    width: 200px;
+    height: auto;
+    margin: 15px;    
+}
+
+.instrumentos header {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.instrumentos img {
+    width: 170px;
+    height: 115px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.instrumentos section {
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF0080;
+}
+
+.instrumentos p,
+.instrumentos h5 {
+    color: #FFF;
+}
+
+.instrumentos h5 {
+    font-size: 13px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.instrumentos p {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media(max-width: 786px) {
+    .instrumentos {
+        justify-content: center;
+    }
+}

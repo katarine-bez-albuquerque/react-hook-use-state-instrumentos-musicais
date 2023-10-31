@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #0066FF;
+}
+
+.footer img {
+    width: 35px;
+    height: 35px;
+}
+
+.footer h4,
+.footer h5 {
+    color: #FFF;
+    margin: 2.5px 0;
+}
+
+.footer h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer h5 {
+    font-size: 14px;
+    font-weight: 700;
+}
